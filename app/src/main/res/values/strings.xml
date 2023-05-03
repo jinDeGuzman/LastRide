@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LastRide</string>
+    <string name="word_guess_game_v2">Word Guess Game v2</string>
+    <string name="start">Start</string>
+</resources>
