@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/91093935/AndroidStudioProjects/LastRide/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/91093935/AndroidStudioProjects/LastRide/app/src/main/res/layout/activity_custom.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/91093935/AndroidStudioProjects/LastRide/app/src/main/res/layout/activity_difficulty.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/91093935/AndroidStudioProjects/LastRide/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/91093935/AndroidStudioProjects/LastRide/app/src/main/res/layout/activity_rules.xml" value="0.30416666666666664" />
       </map>
