@@ -26,4 +26,4 @@ public class custom extends AppCompatActivity {
             }
         });
     }
-}//whattt why does this work l
+}
