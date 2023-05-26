@@ -15,6 +15,7 @@ public class custom extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom);
 
+/*
         EditText guess;
         guess = (EditText) findViewById(R.id.EditView);
         String Answer = "hello";
@@ -25,5 +26,6 @@ public class custom extends AppCompatActivity {
               //  startActivity(new Intent());
             }
         });
+        */
     }
 }

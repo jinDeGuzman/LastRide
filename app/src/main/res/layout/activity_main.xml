@@ -16,33 +16,47 @@
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/Btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693" />
+        app:layout_constraintVertical_bias="0.157" />
 
     <Button
         android:id="@+id/Btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:textColor="#F8BBD0"
+        android:layout_width="83dp"
+        android:layout_height="91dp"
+        android:background="@drawable/custom_button"
+        android:text="GO!"
+        android:textColor="#000000"
+        app:backgroundTint="#611919"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368"
+        app:layout_constraintVertical_bias="0.721"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="281dp"
         android:layout_height="357dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/Btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="It's the rules of Hangman, duh.  You will chose your difficulty or do custom and guess a word until you mess up 5 times and unfortunately fail."
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Btn"
-        app:srcCompat="@drawable/img"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toBottomOf="@+id/Btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
