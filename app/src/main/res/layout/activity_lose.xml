@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Lose"
-    android:background="@color/black">
+    android:background="#F48D8D">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="228dp"
+        android:layout_height="635dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
